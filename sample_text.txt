@@ -1,0 +1,4 @@
+Anjali,9876543210,anjalikumar@gmail.com,1234 Gali No. 5, Nanded
+Faizen,7890123456,faizen@gmail.com,5678 Street No. 8, Mumbai
+Komal,9012345678,komal@gmail.com,9876 Lane No. 3, Nipani
+Nisarg Mehta,3456789012,nisargmehata@gmail.com,4567 Road No. 12, Pune
