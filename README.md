@@ -47,12 +47,95 @@ The provided code implements a Contact Management System using classes in Python
 5. Output:
    - The program displays output in the terminal, including contact details, search results, and deletion status.
 
-6. How to Run:
+   - Sample output:
+      
+         Contact Added Successfully
+         Contact Added Successfully
+         Contact Added Successfully
+         Contact Added Successfully
+         
+         ===== All Contacts =====
+         
+         Index: 1
+         Name: Anjali
+         Phone Number: 9876543210
+         Email Address: anjalikumar@gmail.com
+         Address: 1234 Gali No. 5, Nanded
+         
+         Index: 2
+         Name: Faizen
+         Phone Number: 7890123456
+         Email Address: faizen@gmail.com
+         Address: 5678 Street No. 8, Mumbai
+         
+         Index: 3
+         Name: Komal
+         Phone Number: 9012345678
+         Email Address: komal@gmail.com
+         Address: 9876 Lane No. 3, Nipani
+         
+         Index: 4
+         Name: Nisarg mehata
+         Phone Number: 3456789012
+         Email Address: nisragmehata@gmail.com
+         Address: 4567 Road No. 12, Pune
+         
+         ===== Search Results for 'komal' =====
+         
+         Contacts with (name/phone_number): komal
+         
+         Name: Komal
+         Phone Number: 9012345678
+         Email Address: komal@gmail.com
+         Address: 9876 Lane No. 3, Nipani
+         
+         ===== Search Results for 9012345678 =====
+         
+         Contacts with (name/phone_number): 9012345678
+         
+         Name: Komal
+         Phone Number: 9012345678
+         Email Address: komal@gmail.com
+         Address: 9876 Lane No. 3, Nipani
+         
+         ===== Deleting 'Komal' =====
+         Contact 'Komal' deleted successfully!
+         
+         ===== All Contacts after Deletion =====
+         
+         Index: 1
+         Name: Anjali
+         Phone Number: 9876543210
+         Email Address: anjalikumar@gmail.com
+         Address: 1234 Gali No. 5, Nanded
+         
+         Index: 2
+         Name: Faizen
+         Phone Number: 7890123456
+         Email Address: faizen@gmail.com
+         Address: 5678 Street No. 8, Mumbai
+         
+         Index: 3
+         Name: Nisarg mehata
+         Phone Number: 3456789012
+         Email Address: nisragmehata@gmail.com
+         Address: 4567 Road No. 12, Pune
+         
+         ===== Search Results for 3456789012 =====
+         
+         Contacts with (name/phone_number): 3456789012
+         
+         Name: Nisarg mehata
+         Phone Number: 3456789012
+         Email Address: nisragmehata@gmail.com
+         Address: 4567 Road No. 12, Pune
+
+7. How to Run:
    - Copy and paste the provided code into a Python file.
    - Run the Python file using a Python interpreter.
    - Observe the output in the terminal.
 
-7. Challenges faced during development:
+8. Challenges faced during development:
 
    - One challenge was ensuring the user-friendly display of contact information and managing the formatting of the output.
    - Handling duplicate phone numbers required checking the existing contacts and making sure not to add duplicates. 
