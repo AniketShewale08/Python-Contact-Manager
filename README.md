@@ -1,6 +1,6 @@
 # Python-Contact-Manager
 
-#Contact Management System Implementation
+# Contact Management System Implementation
 
 1. Introduction:
 The provided code implements a Contact Management System using classes in Python. It defines two classes, "Contacts" and "ContactManager," to store and manage individual contact information.
